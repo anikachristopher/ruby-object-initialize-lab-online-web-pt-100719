@@ -17,6 +17,22 @@ class Dog
     @breed = dogs_breed = "Mutt"
   end
   
-  def name=()
+  def name=(name)
+    @name = name
+  end
+    
+  def breed=(breed)
+    @breed = breed
+  end
+    
+  def name
+    @name
+  end
+    
+  def breed
+    @breed
+  end
+    
+end  
   
   
